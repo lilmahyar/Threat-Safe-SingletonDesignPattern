@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threat-Safe-SingletonDesignPattern", "Threat-Safe-SingletonDesignPattern\Threat-Safe-SingletonDesignPattern.csproj", "{FDBEF0B9-6622-4735-82B0-C666A4AA57C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBEF0B9-6622-4735-82B0-C666A4AA57C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBEF0B9-6622-4735-82B0-C666A4AA57C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBEF0B9-6622-4735-82B0-C666A4AA57C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBEF0B9-6622-4735-82B0-C666A4AA57C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4EE6114-521A-4358-BDB7-40941750F7F8}
+	EndGlobalSection
+EndGlobal
