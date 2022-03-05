@@ -6,6 +6,7 @@ namespace Threat_Safe_SingletonDesignPattern
 {
     public sealed  class Singleton
     {
+        private static int counter = 0; 
         private static readonly object InstantLock = new object();
         private Singleton()
         {
@@ -25,8 +26,11 @@ namespace Threat_Safe_SingletonDesignPattern
                     }
                 }
                 return Instance; 
-
             }
+        }
+        public void PrintDetails(string message)
+        {
+            Console.WriteLine(message);
         }
     }
    
