@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Threat_Safe_SingletonDesignPattern
 {
@@ -6,7 +7,21 @@ namespace Threat_Safe_SingletonDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Parallel.Invoke(
+                () => PrintTeacherDetails(),
+                () => PrintStudentdetails()
+                );
+            Console.ReadLine();
+        }
+        private static void PrintTeacherDetails()
+        {
+            Singleton fromTeacher = Singleton.GetSingletonInstance;
+            fromTeacher.PrintDetails("From Teacher");
+        }
+        private static void PrintStudentdetails()
+        {
+            Singleton fromStudent = Singleton.GetSingletonInstance;
+            fromStudent.PrintDetails("From Student");
         }
     }
 }
